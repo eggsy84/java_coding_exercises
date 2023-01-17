@@ -16,4 +16,7 @@ You can run your tests by running the following command:
 
 ```
 mvn test
+mvn test
+
+
 ```
