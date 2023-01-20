@@ -11,8 +11,8 @@ public class Exercise001 {
 
     public String generateInitials(String firstName, String lastName) {
         // Add your code here
-       String initials=firstName.substring(0,1)+"."+lastName.substring(0,1);
-        return initials ;
+       //String initials=firstName.substring(0,1)+"."+lastName.substring(0,1);
+        return firstName.substring(0,1)+"."+lastName.substring(0,1);
 
     }
 
@@ -28,6 +28,7 @@ public class Exercise001 {
         String reversedSentence="";
         for(int i=sentence.length()-1;i>=0;i--){
             reversedSentence = reversedSentence + sentence.charAt(i) ;
+
         }
         return reversedSentence;
     }
@@ -37,7 +38,7 @@ public class Exercise001 {
 
 
         int count = 0;
-       //* advanced for loop syntax for (DateType dt: arrayname)
+
         for (User u : users) {
           if (u.getType().equals("Linux"))
            // if (u.getUsername().equals("Paul"))
