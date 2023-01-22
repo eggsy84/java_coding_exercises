@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: com.techreturners.exercise005.Exercise005Test
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 0, Errors: 9, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.techreturners.exercise005.Exercise005Test
+checkSentenceWithMissingLetterHIsNotAPangram  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.techreturners.exercise005.Exercise005.isPangram(String)" because "this.ex005" is null
+	at com.techreturners.exercise005.Exercise005Test.checkSentenceWithMissingLetterHIsNotAPangram(Exercise005Test.java:56)
+
+checkSentenceWithMissingLetterXIsNotAPangram  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.techreturners.exercise005.Exercise005.isPangram(String)" because "this.ex005" is null
+	at com.techreturners.exercise005.Exercise005Test.checkSentenceWithMissingLetterXIsNotAPangram(Exercise005Test.java:50)
+
+checkPerfectUpperCaseSentenceIsAPangram  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.techreturners.exercise005.Exercise005.isPangram(String)" because "this.ex005" is null
+	at com.techreturners.exercise005.Exercise005Test.checkPerfectUpperCaseSentenceIsAPangram(Exercise005Test.java:32)
+
+checkSentenceWithLowerCaseIsAPangram  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.techreturners.exercise005.Exercise005.isPangram(String)" because "this.ex005" is null
+	at com.techreturners.exercise005.Exercise005Test.checkSentenceWithLowerCaseIsAPangram(Exercise005Test.java:38)
+
+checkSentenceWithNumbersIsAPangram  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.techreturners.exercise005.Exercise005.isPangram(String)" because "this.ex005" is null
+	at com.techreturners.exercise005.Exercise005Test.checkSentenceWithNumbersIsAPangram(Exercise005Test.java:68)
+
+checkSentenceWithMixedUpperAndLowerCaseIsAPangram  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.techreturners.exercise005.Exercise005.isPangram(String)" because "this.ex005" is null
+	at com.techreturners.exercise005.Exercise005Test.checkSentenceWithMixedUpperAndLowerCaseIsAPangram(Exercise005Test.java:44)
+
+checkEmptySentenceIsNotAPangram  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.techreturners.exercise005.Exercise005.isPangram(String)" because "this.ex005" is null
+	at com.techreturners.exercise005.Exercise005Test.checkEmptySentenceIsNotAPangram(Exercise005Test.java:20)
+
+checkPerfectLowerCaseSentenceIsAPangram  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.techreturners.exercise005.Exercise005.isPangram(String)" because "this.ex005" is null
+	at com.techreturners.exercise005.Exercise005Test.checkPerfectLowerCaseSentenceIsAPangram(Exercise005Test.java:26)
+
+checkSentenceWithUnderscoresIsAPangram  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.techreturners.exercise005.Exercise005.isPangram(String)" because "this.ex005" is null
+	at com.techreturners.exercise005.Exercise005Test.checkSentenceWithUnderscoresIsAPangram(Exercise005Test.java:62)
+

@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.techreturners.exercise003.Exercise003Test
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in com.techreturners.exercise003.Exercise003Test
+checkGetIceCreamCodeForRaspberryRipple  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.techreturners.exercise003.Exercise003.getIceCreamCode(String)" because "this.ex003" is null
+	at com.techreturners.exercise003.Exercise003Test.checkGetIceCreamCodeForRaspberryRipple(Exercise003Test.java:40)
+
+checkGetIceCreamCodeForMangoSorbet  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.techreturners.exercise003.Exercise003.getIceCreamCode(String)" because "this.ex003" is null
+	at com.techreturners.exercise003.Exercise003Test.checkGetIceCreamCodeForMangoSorbet(Exercise003Test.java:31)
+
+checkPickMultipleIceCreamFlavours  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.techreturners.exercise003.Exercise003.iceCreamFlavours()" because "this.ex003" is null
+	at com.techreturners.exercise003.Exercise003Test.checkPickMultipleIceCreamFlavours(Exercise003Test.java:49)
+
+checkGetIceCreamCodeForMintChocolateChip  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.techreturners.exercise003.Exercise003.getIceCreamCode(String)" because "this.ex003" is null
+	at com.techreturners.exercise003.Exercise003Test.checkGetIceCreamCodeForMintChocolateChip(Exercise003Test.java:22)
+
